@@ -1,5 +1,7 @@
 {
-	"test": "test",
-	"add": "add",
-	"remove": "remove"
+    "test": "test",
+    "add": "add",
+    "remove": "remove",
+    "other": "other",
+    "update": "update"
 }
