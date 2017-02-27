@@ -1,5 +1,6 @@
 {
     "test": "test",
     "add": "add",
-    "remove": "remove"
+    "remove": "remove",
+    "other": "other"
 }
