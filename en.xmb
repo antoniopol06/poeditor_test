@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE messagebundle [
+        <!ELEMENT messagebundle (msg)*>
+        <!ATTLIST messagebundle class CDATA #IMPLIED>
+
+        <!ELEMENT msg (#PCDATA|ph|source)*>
+        <!ATTLIST msg id CDATA #IMPLIED>
+        <!ATTLIST msg seq CDATA #IMPLIED>
+        <!ATTLIST msg name CDATA #IMPLIED>
+        <!ATTLIST msg desc CDATA #IMPLIED>
+        <!ATTLIST msg meaning CDATA #IMPLIED>
+        <!ATTLIST msg obsolete (obsolete) #IMPLIED>
+        <!ATTLIST msg xml:space (default|preserve) "default">
+        <!ATTLIST msg is_hidden CDATA #IMPLIED>
+
+        <!ELEMENT source (#PCDATA)>
+
+        <!ELEMENT ph (#PCDATA|ex)*>
+        <!ATTLIST ph name CDATA #REQUIRED>
+
+        <!ELEMENT ex (#PCDATA)>
+        ]>
+<messagebundle>
+        <msg id="0e6e97df36477138cbd9af3e75411ec4098e0e81" desc="Please don&apos;t change the name of the application">TODO List</msg>
+        <msg id="88189fb664482334c972fc003fd5d324d222d92d">Enter your credentials below to login</msg>
+        <msg id="b1cbc43844f73b4592073327b79a95530811267c">
+                Login successful! <ph name="LINE_BREAK"><ex>&lt;br&gt;</ex></ph>
+                Welcome back %s!
+        </msg>
+        <msg id="68a7ed22bb6c27f7419306d547d5e8636639b28d">Make sure you&apos;ve entered the correct username and password</msg>
+        <msg id="b87e81682959464211443afc3e23c506865d2eda">I forgot my password</msg>
+        <msg id="a852ba13a01b09bc1ea89265c7ba968fdf233db3">
+                Enter your address in the field below.
+                A new password will be sent to your inbox.
+        </msg>
+        <msg id="ddc612479686c0abc415551b2859f6b6c881bf90">Sign up for free! No credit card required!</msg>
+        <msg id="fa61d1080f3c82feddfce8ca2dd0ca77b2953c87">Thank you for signing up !
+                Please check your email address to activate your account.</msg>
+        <msg id="73b5c8855208a6cca7b8f3a5ad7b6856c2fbd222">We were unable to sign you up. <ph name="LINE_BREAK"><ex>&lt;br&gt;</ex></ph>Please correct the marked fields.</msg>
+        <msg id="f9b310ac6e0921cca5f786ad8a5b82ca27565c36">Terms and conditions</msg>
+        <msg id="8f59704f607ab82b32b585be7046fc22b1963d80" desc="User" meaning="form_label">Username</msg>
+        <msg id="4f1556020f3961d8663dacf7989ccbe379993c82" meaning="form_label">Password</msg>
+        <msg id="58a4068e4bdc40d645182638da6fde8dd2d72e72" desc="Info about users">Just one user online</msg>
+</messagebundle>
