@@ -2,5 +2,6 @@
     "test": "test",
     "add": "add",
     "remove": "remove",
-    "other": "other"
+    "other": "other",
+    "update": "update"
 }
