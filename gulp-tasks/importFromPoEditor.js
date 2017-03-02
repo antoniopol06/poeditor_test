@@ -53,7 +53,7 @@ function downloadFile(url) {
 
 function writeFile(name, contents) {
     return new Promise(function (resolve, reject) {
-        var filepath = path.join(rootDir, name + '.properties');
+        var filepath = path.join(rootDir,'..', name + '.properties');
         fs.writeFile(filepath, contents, function (err) {
             if (err) {
                 reject(err);

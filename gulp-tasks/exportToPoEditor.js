@@ -61,6 +61,7 @@ function uploadFile(code) {
         form.append('file', fs.createReadStream(path.join(rootDir, '..', code + '.properties')));
         form.append('language', code);
         form.append('overwrite', 1);
+        form.append('sync_terms', 1);
     });
 }
 
